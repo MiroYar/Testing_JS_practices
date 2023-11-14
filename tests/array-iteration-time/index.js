@@ -25,7 +25,7 @@ console.time('while');
 let i = 0;
 while (i < length) {
   const el = array[i];
-  if (i === length - 1) console.log(`for: Iterate is done on ${el}`);
+  if (i === length - 1) console.log(`while: Iterate is done on ${el}`);
   i++;
 }
 console.timeEnd('while');

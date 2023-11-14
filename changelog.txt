@@ -1,2 +1,5 @@
+0.2
+- adjusted the console.log in array-iteration-time;
+- added a console menu for selecting tests.
 0.1
-- add array-iteration-time test
+- added array-iteration-time test.

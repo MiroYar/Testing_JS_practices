@@ -1,11 +1,17 @@
 {
   "name": "testing_js_practices",
-  "version": "1.0.0",
+  "version": "0.2",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "MiroYar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@miroyar/ccolor": "^0.1.4",
+    "inquirer": "^9.2.12"
+  }
 }
